@@ -1,0 +1,28 @@
+Regression:
+
+SGD!
+OLS
+Ridge
+Lasso
+Elastic Net
+LARS
+Kernel Ridge
+
+SVM (SVR, NuSVR, LinearSVR)
+
+KNN
+
+Random Forests
+Extremely Randomized Trees
+AdaBoost
+Gradient Boosted Trees (XGBoost, LightGBM)
+
+--------------------------------------------------------------------------------
+
+Preprocessing:
+
+RobustScaler
+MinMaxScaler
+StandardScaler
+
+Dummies

@@ -1,0 +1,28 @@
+Features:
+
+1   Per timer volume
+2   Default settings (prefill)
+3   System override option
+4   Alarm clock (multi)
+5   Timer (multi)
+6   Auto sort (by name, time remaining, etc.)
+7   Drag and drop
+8   Notifications
+9   Headphone detection
+10  Stopwatch (multi)
+11  Landscape mode
+12  Day/hour/minute/second/millisecond
+13  Play/pause (incl. alarm), stop(?)/reset, settings, clock/alarm/timer toggle(?)
+14  Everything on one screen!
+15  Names/comments
+16  Snooze
+17  User defined/editable settings, stored plaintext (XML?)
+18  Elapsed time
+19  Undo (delete, etc.)
+20  Discrete increments, customizable
+21  Increasing volume (per ring)
+22  Filter by clock/timer/countdown/alarm
+23  Settings searchable
+24  Prevent sleep button (light bulb icon on action bar)
+25  Config/settings file, plaintext with read/write
+26  Add new timer (scroll to new, custom defaults, copy previous, etc.)

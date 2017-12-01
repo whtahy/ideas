@@ -1,0 +1,77 @@
+Goal: destroy enemy base
+
+
+
+Shield X: immune to damage leq X (for heroes)
+Armor X: resets every turn
+Immunity/aegis: immune to mundane effects
+Divine shield: bubble
+Shield shield: spell bubble
+
+
+
+Units: basic
+Structures: fancy
+Spells: fancy effects
+Mana: basic resource
+Lands: fancy resource
+
+
+
+---frontline---
+Melee: frontline defense
+Archery: offense, no defense
+Siege: countdown effects, no defense
+Fortified castle/mobile fortress: shield, special effects
+---backline---
+
+
+
+Mobile: cavalry, airships
+
+
+
+Choose every turn:
+Draw card
+Gain mana
+etc
+
+
+
+No passive gain
+6 mana deck -> ramp to / win condition at 6 mana
+
+
+
+Themes:
+Blood magic
+Swarm/token
+Technology/Scifi
+Magic/spells
+Monsters
+Divine
+Demon
+Eco/low curve
+Terrans
+
+
+
+Mythology:
+humans, creatures, weapons/armor
+
+
+
+Card variants:
+Male/female
+Old/young/mid
+Skilled/unskilled
+Heavy/light/balanced
+
+
+
+Keywords:
+Charge/rush
+Shield
+On draw
+On play
+On summon
