@@ -1,7 +1,0 @@
-Features:
-
-1   Play music (YouTube) from your bookmark folders
-2   Play next, shuffle, etc.
-3   ReplayGain/normalize/volume control
-4   Shift bookmarks between browsers. eg, firefox <-> chrome
-5   Generate html/playlist/etc from selection/folder/etc

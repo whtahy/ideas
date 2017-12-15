@@ -1,0 +1,8 @@
+d_  dimensions of
+i_  index of
+l_  length of
+n_  number of
+p_  partial
+r_  random
+
+pr_  probability of

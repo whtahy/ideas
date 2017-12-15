@@ -1,0 +1,221 @@
+##########
+
+DESIGN DOC
+
+##########
+
+
+
+
+### Source
+Path of Exile, Diablo, MedianXL
+MageGuild
+Dwarf Fortress
+Cogmind
+Fallout
+Dota
+Baldur's Gate, Pathfinder
+Wesnoth
+Demon's Souls
+Red Lightning
+
+
+
+
+### Stats
+Str, Dex, Int, Sanity, Maturity/Wisdom/Veteran, Luck, etc
+Substat: Body/Fitness -> Muscle + Limber, Mind -> Int + Wisdom + Will (HP)
+Every point matters!
+Cross training/bonuses
+Intrinsic, extrinsic
+
+### Resources
+HP, Mana, Stamina
+AR, EV
+Alchemy, corpses
+
+### Ascension
+Dark arts, vampirism, scifi tech, divine favor
+
+
+
+
+### Weapons
+Axe, mace, sword (straight, curved, thrust, great), dagger, polearm
+Bow, crossbow
+Interact: weight, AR/EV, str/dex/int, 1H/2H
+Separate stat scaling: str, dex do different things
+
+### Equipment
+Flasks
+Bonfire/food/supplies
+Chest, helm, boots, gloves, belt, shield
+Jewelry, charms
+Town portal/fast travel
+
+### Gear Mods
+Light, balanced, heavy
+Material (mithril, iron), type/style (dwarven, thief's)
+Enchant: +1 to +5, Every point matters!
+Ego/brand: elemental, etc
+Balance: power => cost
+
+
+
+
+### Spells
+Require setup/channeling/focus
+Instants: pre prepared/cost extra/weaker. For surprises (turning corners)
+Scaling: spend/channel more for more power
+
+### Enemies
+Bandits, goblins, orcs, trolls, dragons, etc
+Caster, fighter, archer
+Assassin: stealthy, manip/break ZoC mechanics:
+    AoO trigger parry, ignore player ZoC (Wesnoth), etc.
+
+### AI
+Shouting/communication, tactics (surround, etc)
+Probabilistic simulation offscreen
+
+### Combat
+Resistances: rare, diminishing
+Stance/state: reckless, defensive, surprised, flat footed, blocking,
+    alert, unwary, fleeing, etc.
+Zone of control, action/reaction/anticipation/cues
+Reach, stagger/poise, parry/guard/break, cleave/whirlwind, aimed shot
+Fleeing (fov restrict), backing, circling, spacing/combos
+Saving throw
+Action points
+Leap, tumble
+Surprise, initiative
+Block, dodge/evade, armor
+Maneuvers (Pathfinder): rush, trick, disarm, feint, trip
+Multiple block/dodge/attack per turn (per weapon)
+Status ailments: fire, lit, cold, poison, etc
+Dice: d10/d20/etc
+    Roll < AC: Miss
+    Roll = AC: Glancing blow
+    Roll > AC: Hit
+    Critical: max damage/multi/special/etc. per weapon
+
+
+
+
+### FOV
+Square birds eye
+Stop at walls: see 1 side / double sided walls!
+See past trees / reduce MAX fov
+
+### Misc
+Targeting
+Save/reload/replay
+Custom keybinds
+External data, scripting
+Dynamic world events
+Corpse looter eventually opens a store,
+    more powerful items over time (through trade with passerby)
+Barter with random passerby, based on inventory/stats/ai/etc.
+
+### Mechanics
+RNG: lucky, unlucky, truncate variance
+Fog, lamp/dark, light gradient
+Experience, talents, subclass/ascendancy, tree
+Choose your own adventure / narrative / DM
+Backpack limit/unlimit
+Puzzles
+Mana reservation
+Crafting/progression (talisman/cube/charm/crystal ball)
+Smithing/forging/reforging (RNG?)
+Gods
+Streamlined search/explore (full room, requires focus, can be surprised)
+Special abilities
+Equip/unequip takes long time. No fast swapping except prepared items
+Panic/flee: monsters fear you (Will check)
+Exploration: find/loot/buy/sell maps
+Digging
+
+
+
+
+### Level Generation
+Forests, mountains, plains, desert, rivers, lakes, cavern system, caves, ice
+Z-axis: spiral stairs, etc
+Seamless infinite/sprawl: no map change/load!
+3D entrances: caves, buildings, etc
+
+### World Map + Simulation
+Simulate ecosystems indirectly: show probabilistic outcomes
+Generate biomes with transitions
+Generate level tile from overworld tile
+
+
+
+
+### Game Engine
+Smart move: choose available diagonal
+Built in multi control: center camera on control, cycle thru, etc
+Simultaneous turns!
+1.  Player input
+2.  All entities form intent, using known information
+3.  Resolve order of operations
+    Loop in order:
+4.  Resolve conflict: dead, occupied square, etc
+5.  Execute intent
+6.  Execute animation(s)
+7.  Update game state
+    End loop
+8.  Wait for player input
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+Features:
+
+1   Scan receipt
+    Black+white clustering
+    Batch OCR on desktop
+2   Breakdown: Item, Price, Total, Date/Time, Vendor, Address
+3   Sort, tag, folders
+4   Line by line GUI / form fill
+5   Customizable forms
