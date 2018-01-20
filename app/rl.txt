@@ -35,7 +35,7 @@ AR, EV
 Alchemy, corpses
 
 ### Ascension
-Dark arts, vampirism, scifi tech, divine favor
+Dark side, vampirism, scifi tech, divine favor
 
 
 
@@ -98,6 +98,7 @@ Dice: d10/d20/etc
     Roll = AC: Glancing blow
     Roll > AC: Hit
     Critical: max damage/multi/special/etc. per weapon
+See your own RNG / see enemy rolls
 
 
 
