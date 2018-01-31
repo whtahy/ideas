@@ -8,23 +8,37 @@ DESIGN DOC
 
 
 ### Source
+Sil, ADOM, DCSS, Cogmind, MageGuild
 Path of Exile, Diablo, MedianXL
-MageGuild
-Dwarf Fortress
-Cogmind
-Fallout
-Dota
-Baldur's Gate, Pathfinder
-Wesnoth
-Demon's Souls
+Darkest Dungeon, Wesnoth, Dwarf Fortress
+Dota, Fallout, Baldur's Gate, Pathfinder
+Demon's Souls + Dark Souls
 Red Lightning
+
+
+
+
+### Game Flow
+Simple, like Sil
+Streamlined controls: like Sil, unlike ADOM/Nethack/etc
+Controlled progression:
+    no dead man walking, unlike ADOM
+    mechanics are predictable + transparent: like Sil, unlike DCSS
+    optional grinding / deterministic farming, like PoE/Diablo, unlike DCSS
+    steady stream of interesting/meaningful longform choices: unlike DCSS
+    steady power curve
+    interactive/longform traps: unlike Sil, DCSS, etc
+Loot focus: like PoE/Diablo, unlike DCSS
+Dense: no autoexplore, unlike DCSS
+No corridor abuse: like PoE/Diablo, unlike Sil/DCSS/etc
+YOLO: no easy escape, like Sil, unlike DCSS/Angband
 
 
 
 
 ### Stats
 Str, Dex, Int, Sanity, Maturity/Wisdom/Veteran, Luck, etc
-Substat: Body/Fitness -> Muscle + Limber, Mind -> Int + Wisdom + Will (HP)
+Substat: Body/Fitness -> Str + Agi, Mind -> Int + Art/Crafting + Will (HP)
 Every point matters!
 Cross training/bonuses
 Intrinsic, extrinsic
@@ -52,13 +66,14 @@ Bonfire/food/supplies
 Chest, helm, boots, gloves, belt, shield
 Jewelry, charms
 Town portal/fast travel
+Trinket/relic/artifact: starting RNG, char customization
 
 ### Gear Mods
 Light, balanced, heavy
 Material (mithril, iron), type/style (dwarven, thief's)
 Enchant: +1 to +5, Every point matters!
 Ego/brand: elemental, etc
-Balance: power => cost
+Balance: power => cost, both min & max power curve
 
 
 
@@ -83,6 +98,7 @@ Resistances: rare, diminishing
 Stance/state: reckless, defensive, surprised, flat footed, blocking,
     alert, unwary, fleeing, etc.
 Zone of control, action/reaction/anticipation/cues
+    ZoC penalizes enemy clumping
 Reach, stagger/poise, parry/guard/break, cleave/whirlwind, aimed shot
 Fleeing (fov restrict), backing, circling, spacing/combos
 Saving throw
@@ -106,7 +122,7 @@ See your own RNG / see enemy rolls
 ### FOV
 Square birds eye
 Stop at walls: see 1 side / double sided walls!
-See past trees / reduce MAX fov
+See past trees: obstacles reduce max fov (do not block)
 
 ### Misc
 Targeting
@@ -156,7 +172,8 @@ Generate level tile from overworld tile
 ### Game Engine
 Smart move: choose available diagonal
 Built in multi control: center camera on control, cycle thru, etc
-Simultaneous turns!
+
+Proposal: Simultaneous turns!
 1.  Player input
 2.  All entities form intent, using known information
 3.  Resolve order of operations
@@ -167,56 +184,3 @@ Simultaneous turns!
 7.  Update game state
     End loop
 8.  Wait for player input
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
