@@ -1,0 +1,13 @@
+# python
+*.pickle
+__pycache__/
+
+# pycharm
+.idea/
+
+# jupyter
+.ipynb_checkpoints/
+scratch.ipynb
+
+# other
+tabula_rasa
