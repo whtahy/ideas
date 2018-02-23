@@ -1,24 +1,26 @@
-##########
-
-DESIGN DOC
-
-##########
 
 
 
+###
+### Design #####################################################################
+###
 
-### Source
+
+
+### Source #####################################################################
+
 Sil, ADOM, DCSS, Cogmind, MageGuild
 Path of Exile, Diablo, MedianXL
 Darkest Dungeon, Wesnoth, Dwarf Fortress
 Dota, Fallout, Baldur's Gate, Pathfinder
 Demon's Souls + Dark Souls
 Red Lightning
+Vince D. Weller
 
 
 
+### Game Flow ##################################################################
 
-### Game Flow
 Simple, like Sil
 Streamlined controls: like Sil, unlike ADOM/Nethack/etc
 Controlled progression:
@@ -30,37 +32,72 @@ Controlled progression:
     interactive/longform traps: unlike Sil, DCSS, etc
 Loot focus: like PoE/Diablo, unlike DCSS
 Dense: no autoexplore, unlike DCSS
-No corridor abuse: like PoE/Diablo, unlike Sil/DCSS/etc
-YOLO: no easy escape, like Sil, unlike DCSS/Angband
+No corridor abuse / open combat: like PoE/Diablo, unlike Sil/DCSS/etc
+YOLO: escape is hard, like Sil, unlike DCSS/Angband
 
 
 
+### Roguelite ##################################################################
 
-### Stats
+Deterministic seed allows:
+    Progression: monsters pick up your items / carryover effects;
+                 but each continue makes the game harder
+    Reset seed / fresh start: remove progression and reset difficulty
+
+
+
+### Stats ######################################################################
+
 Str, Dex, Int, Sanity, Maturity/Wisdom/Veteran, Luck, etc
 Substat: Body/Fitness -> Str + Agi, Mind -> Int + Art/Crafting + Will (HP)
 Every point matters!
 Cross training/bonuses
 Intrinsic, extrinsic
 
-### Resources
+S D I
+3 0 0 Barbarian
+0 3 0 Thief
+0 0 3 Mage
+
+2 1 0 Fighter
+2 0 1
+
+1 2 0 Assassin
+0 2 1 Rogue
+
+1 0 2
+0 1 2 Alchemist
+
+1 1 1 Bard
+
+
+
+### Resources ##################################################################
+
 HP, Mana, Stamina
 AR, EV
 Alchemy, corpses
 
-### Ascension
-Dark side, vampirism, scifi tech, divine favor
+
+
+### Ascendancy #################################################################
+
+But at what cost? Dark side, vampirism, scifi tech, divine favor, demons
+Feats: game changing / chunky; establish player/character identity
 
 
 
+### Weapons ####################################################################
 
-### Weapons
-Axe, mace, sword (straight, curved, thrust, great), dagger, polearm
+Axe, mace/hammer, sword (straight, curved, thrust, great), dagger, polearm
 Bow, crossbow
-Interact: weight, AR/EV, str/dex/int, 1H/2H
-Separate stat scaling: str, dex do different things
+Interact: weight, player AR/EV, vs AR/EV, str/dex/int, 1H/2H, crit
+Distinct stat scaling: str, dex do different things
 
-### Equipment
+
+
+### Equipment ##################################################################
+
 Flasks
 Bonfire/food/supplies
 Chest, helm, boots, gloves, belt, shield
@@ -68,7 +105,10 @@ Jewelry, charms
 Town portal/fast travel
 Trinket/relic/artifact: starting RNG, char customization
 
-### Gear Mods
+
+
+### Gear Mods ##################################################################
+
 Light, balanced, heavy
 Material (mithril, iron), type/style (dwarven, thief's)
 Enchant: +1 to +5, Every point matters!
@@ -77,23 +117,32 @@ Balance: power => cost, both min & max power curve
 
 
 
+### Spells #####################################################################
 
-### Spells
 Require setup/channeling/focus
 Instants: pre prepared/cost extra/weaker. For surprises (turning corners)
 Scaling: spend/channel more for more power
 
-### Enemies
+
+
+### Enemies ####################################################################
+
 Bandits, goblins, orcs, trolls, dragons, etc
 Caster, fighter, archer
 Assassin: stealthy, manip/break ZoC mechanics:
     AoO trigger parry, ignore player ZoC (Wesnoth), etc.
 
-### AI
+
+
+### AI #########################################################################
+
 Shouting/communication, tactics (surround, etc)
 Probabilistic simulation offscreen
 
-### Combat
+
+
+### Combat #####################################################################
+
 Resistances: rare, diminishing
 Stance/state: reckless, defensive, surprised, flat footed, blocking,
     alert, unwary, fleeing, etc.
@@ -114,17 +163,20 @@ Dice: d10/d20/etc
     Roll = AC: Glancing blow
     Roll > AC: Hit
     Critical: max damage/multi/special/etc. per weapon
-See your own RNG / see enemy rolls
+See your own RNG / see enemy rolls (depends on int?)
 
 
 
+### FOV ########################################################################
 
-### FOV
 Square birds eye
 Stop at walls: see 1 side / double sided walls!
 See past trees: obstacles reduce max fov (do not block)
 
-### Misc
+
+
+### Misc #######################################################################
+
 Targeting
 Save/reload/replay
 Custom keybinds
@@ -134,7 +186,10 @@ Corpse looter eventually opens a store,
     more powerful items over time (through trade with passerby)
 Barter with random passerby, based on inventory/stats/ai/etc.
 
-### Mechanics
+
+
+### Mechanics ##################################################################
+
 RNG: lucky, unlucky, truncate variance
 Fog, lamp/dark, light gradient
 Experience, talents, subclass/ascendancy, tree
@@ -155,21 +210,24 @@ Digging
 
 
 
-### Level Generation
+### Level Generation ###########################################################
+
 Forests, mountains, plains, desert, rivers, lakes, cavern system, caves, ice
 Z-axis: spiral stairs, etc
 Seamless infinite/sprawl: no map change/load!
 3D entrances: caves, buildings, etc
 
-### World Map + Simulation
+
+
+### World Map + Simulation #####################################################
 Simulate ecosystems indirectly: show probabilistic outcomes
 Generate biomes with transitions
 Generate level tile from overworld tile
 
 
 
+### Game Engine ################################################################
 
-### Game Engine
 Smart move: choose available diagonal
 Built in multi control: center camera on control, cycle thru, etc
 
