@@ -1,0 +1,45 @@
+
+
+
+
+
+# PIECES #######################################################################
+
+Component: data (ie int, string, etc)
+
+Entity: dict
+    key: component id
+    val: component val
+
+World: list
+    idx: entity id
+    val: entity/dict
+
+ComponentList: list
+    idx: component id
+    val: list of entity id/idx
+
+
+
+
+
+# EXAMPLE ######################################################################
+
+Component0 = string: glyph
+Component1 = int: hp
+Component4 = int: sprite id
+
+Entity6 = [
+    0: '@', # glyph
+    1: 25,  # hp
+    4: 0,   # sprite id
+]
+
+World = [Entity0, Entity1, Entity2, ...]
+
+Component lookup = [
+    [3, 6, 0],  # entities 3, 6, 0 have glyph
+    [6, 3, 1],  # entities 6, 3, 1 have hp
+    [1, 8, 2],  # entities 1, 8, 2 have Component2
+    ...
+]
