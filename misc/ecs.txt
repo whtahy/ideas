@@ -37,7 +37,7 @@ Entity6 = [
 
 World = [Entity0, Entity1, Entity2, ...]
 
-Component lookup = [
+ComponentList = [
     [3, 6, 0],  # entities 3, 6, 0 have glyph
     [6, 3, 1],  # entities 6, 3, 1 have hp
     [1, 8, 2],  # entities 1, 8, 2 have Component2
