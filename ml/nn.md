@@ -52,8 +52,8 @@
 ## Hyperparameter Tuning
 - Priority:
     1.  alpha
-    2.  # nodes, momentum beta, batch size
-    3.  # layers, learning rate decay
+    2.  \# nodes, momentum beta, batch size
+    3.  \# layers, learning rate decay
 - Random search (not grid search)
 - Coarse to fine
 - Linear scale: # nodes, # layers
