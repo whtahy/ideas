@@ -1,5 +1,5 @@
 ## Architecture
-- Auto differentiation: computational graph + chain rule -> backprop
+- Backprop: computational graph + chain rule -> auto differentiation
 - Feed forward: X -> [Linear -> Nonlinear] -> Y
 
 
@@ -93,15 +93,13 @@
 - Train-dev -> dev: data mismatch
 - Dev -> Test: overfit dev
 
-<center>
 |           | Train Distribution |                   | Dev/Test Distribution |
-|:---------:|:------------------:|:-----------------:|:---------------------:|
+| :---:     | :---:              | :---:             | :---:                 |
 | HLP/Bayes | Human level        |                   |                       |
 |           | **Avoidable bias** |                   |                       |
 | Train     | Train error        |                   |                       |
 |           | **Variance**       |                   |                       |
 | Not Train | Train-dev error    | **Data mismatch** | Dev/Test error        |
-</center>
 
 
 ## Transfer Learning
