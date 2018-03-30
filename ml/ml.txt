@@ -1,23 +1,30 @@
 Random Forests + Gradient Boosting!
 
 -1  Overfit your data!
- 0  Shuffle + split data: Train, Dev/CV, Test; stratify as needed
- 1  Normalize data as needed
- 2  Simple algorithm: quick rough draft
- 3  Sanity check: small training sample
- 4  Learning curves: plot error vs iteration/model/lambda/training size
- 5  Error analysis: F score/log Loss, manual inspection
- 6  Identify bias (model) or variance (learning) issue
- 7  Ceiling analysis: resource allocation
+ 0  Shuffle + split: Train, Dev/CV, Test; stratify as needed.
+ 1  Clean: zero mean, standardize range/variance, missing values.
+ 2  Prototype: bare bones algorithm.
+ 3  Sanity check: train on small subset.
+ 4  Learning curves: loss vs iteration/model/lambda/training size.
+ 5  Bias: bigger model, train longer, different architecture.
+ 6  Variance: more data, regularization, different architecture.
+ 7  Error analysis: F score/log Loss, inspect examples by hand.
+ 8  Ceiling analysis: resource allocation.
+ 9  Iterate!
+
+Bias: high train error, relative to Bayes error rate
+Variance: high delta, train vs dev error
+
+L1 vs L2 regularization: Just use L2. Maybe L1 for sparsity/feature selection.
 
 Logistic Regression/Linear SVM: Not enough data (relative to no. features)
 Kernel SVM: "medium" data size; too slow for large data
 PCA: retain % variance; faster learning, data compression, visualization
 
-Minibatch Gradient Descent: batch of eg 10 (range 2-100)
+Mini-batch Gradient Descent: batch of 64 to 512, 1024 etc
 Convergence: decrease learning rate over time
 
-Data Synthesis: from scratch/combined piecemeal, adding distortion/noise
+Data Aug/Synthesis: from scratch/combined piecemeal, adding distortion/noise
 Size Matters: How much work would it take to get 10x current data?
 Ceiling Analysis: identify best case/upside/weak links in pipeline
 
