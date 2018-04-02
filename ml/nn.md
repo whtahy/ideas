@@ -11,7 +11,7 @@
 ### 2.2 [Object Detection](#22-object-detection-1)
 ### 2.3 [Extras](#23-extras-1)
 
-## 3 [Sequence Models](#3-sequence-models)
+## 3 [Sequence Models](#3-sequence-models-1)
 
 
 --------------------------------------------------------------------------------
