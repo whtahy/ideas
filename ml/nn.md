@@ -1,17 +1,17 @@
 # Table of Contents
 
-## 1 [Basics](#Basics)
-### 1.1 [Architecture](#Architecture)
-### 1.2 [Prep](#Prep)
-### 1.3 [Training](#Training)
-### 1.4 [Iteration](#Iteration)
+## 1 [Basics](#basics)
+### 1.1 [Architecture](#architecture)
+### 1.2 [Prep](#prep)
+### 1.3 [Training](#training)
+### 1.4 [Iteration](#iteration)
 
 ## 2 [CNN](#CNN)
-### 2.1 [Image Classification](#Image-Classification)
-### 2.2 [Object Detection](#Object-Detection)
-### 2.3 [Extras](#Extras)
+### 2.1 [Image Classification](#image-classification)
+### 2.2 [Object Detection](#object-detection)
+### 2.3 [Extras](#extras)
 
-## 3 [Sequence Models](#Sequence-Models)
+## 3 [Sequence Models](#sequence-models)
 
 
 --------------------------------------------------------------------------------
@@ -302,12 +302,22 @@
 
 
 ### RNN: Recurrent Neural Network
+
+
 ### GRU: Gated Recurrent Unit
+
+
 ### LSTM: Long Short-Term Memory
+
+
+--------------------------------------------------------------------------------
 
 
 # 4 GAN: Generative Adversarial Models
 - Todo
+
+
+--------------------------------------------------------------------------------
 
 
 # 5 Reinforcement Learning
