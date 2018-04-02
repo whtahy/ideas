@@ -179,8 +179,8 @@
 
 ### Layers
 - Convolution (`conv`): dot product + bias -> nonlinear (eg, ReLU)
-- Pooling (`pool`): downsample (no learning), eg max with `f = s = 2`, `p = 0'
-- Fully connected ('fc'): FNN layer
+- Pooling (`pool`): downsample (no learning), eg max with `f = s = 2`, `p = 0`
+- Fully connected (`fc`): FNN layer
 
 ### Filter/Kernel
 - Learn weights (ie, matrix elements) via backprop
@@ -191,7 +191,7 @@
 - Size: `3x3`, `5x5`, `7x7`, odd `f` -> symmetric padding + central pixel (loc)
 - Network in network: `1x1` convolution -> influences no. channels
 
-### Padding (p)
+### Padding
 - Avoid shrinkage
 - Use data more uniformly: corner vs center pixel
 - Valid: no padding (`p = 0`)
