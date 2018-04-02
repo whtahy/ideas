@@ -1,15 +1,15 @@
 # Table of Contents
 
-## 1 [Basics](#1-basics)
-### 1.1 [Architecture](#11-architecture)
-### 1.2 [Prep](#12-prep)
-### 1.3 [Training](#13-training)
-### 1.4 [Iteration](#14-iteration)
+## 1 [Basics](#1-basics-1)
+### 1.1 [Architecture](#11-architecture-1)
+### 1.2 [Prep](#12-prep-1)
+### 1.3 [Training](#13-training-1)
+### 1.4 [Iteration](#14-iteration-1)
 
-## 2 [CNN](#2-CNN)
-### 2.1 [Image Classification](#21-image-classification)
-### 2.2 [Object Detection](#22-object-detection)
-### 2.3 [Extras](#23-extras)
+## 2 [CNN](#2-cnn-convolutional-neural-networks)
+### 2.1 [Image Classification](#21-image-recognition)
+### 2.2 [Object Detection](#22-object-detection-1)
+### 2.3 [Extras](#23-extras-1)
 
 ## 3 [Sequence Models](#3-sequence-models)
 
