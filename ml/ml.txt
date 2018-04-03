@@ -32,19 +32,6 @@ Leakage: of info/data via train/test data, features, etc
 
 ---
 
-Supervised Learning:
-linear regression
-logistic regression
-neural networks
-SVM
-
-Unsupervised Learning:
-K-means
-PCA
-anomaly detection
-
----
-
 "You must earn your complexity"
 
 Feature Transform: PCA, RCA, ICA
