@@ -1,0 +1,8 @@
+Yarn/Turbo
+Typescript
+VS Code+Prettier/StackBlitz
+React/Preact
+Node.js
+Parcel
+Gatsby/React-Static
+Styled Components

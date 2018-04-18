@@ -1,13 +1,17 @@
+# data
+*.csv
+
 # python
 *.pickle
 __pycache__/
+.pytest_cache
 
-# pycharm
+# jetbrains
 .idea/
+
+# vscode
+.vscode/
 
 # jupyter
 .ipynb_checkpoints/
 scratch.ipynb
-
-# other
-tabula_rasa
