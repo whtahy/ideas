@@ -17,3 +17,10 @@ Capitalism
 Bayesian belief
 Map is not the territory
 Leibniz's Law
+
+perspective
+inertia
+equilibrium
+iteration
+coordination (problem)
+workflow
