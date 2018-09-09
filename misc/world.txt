@@ -24,3 +24,5 @@ equilibrium
 iteration
 coordination (problem)
 workflow
+network effect
+pareto principle
