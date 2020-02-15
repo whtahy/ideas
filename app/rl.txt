@@ -104,6 +104,7 @@ Chest, helm, boots, gloves, belt, shield
 Jewelry, charms
 Town portal/fast travel
 Trinket/relic/artifact: starting RNG, char customization
+Spyglass, scouting
 
 
 
@@ -206,7 +207,6 @@ Equip/unequip takes long time. No fast swapping except prepared items
 Panic/flee: monsters fear you (Will check)
 Exploration: find/loot/buy/sell maps
 Digging
-
 
 
 
